@@ -14,6 +14,8 @@ import MongoStore from "connect-mongo"
 import passport from 'passport'
 import initializePassport from './config/passport.config.js'
 import config from './config/config.js'
+import mongoose from 'mongoose';
+
 
 
 const port = config.port
